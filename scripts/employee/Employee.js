@@ -1,12 +1,11 @@
 const Employee = (employeeObject) => {
     return `
     <section class="employee">
-
-        <div class="employeeInfo">
-            <p>First Name: ${employeeObject.firstName}<p>
-            <p>Last Name: ${employeeObject.lastName}<p>
-            <p>Job Title: ${employeeObject.jobTitle}<p>
-            <p>Scheduled hours: ${employeeObject.hoursScheduled}<p>
+    
+            <div class="employeeInfo">
+            <h1> ${employeeObject.firstName} ${employeeObject.lastName}</h1>
+            <p>Job Title: ${employeeObject.jobTitle}</p>
+            <p>Scheduled hours: ${employeeObject.hoursScheduled}</p>
         </div>
              </section>
      `
