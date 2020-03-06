@@ -1,7 +1,7 @@
 import { useEmployee } from "./employeeDataProvider.js"
 import Employee from "./Employee.js";
 
-const contentTarget = document.querySelector(".container")
+const contentTarget = document.querySelector(".header")
 
 const employeeList = () => {
     // Get the data from the provider
